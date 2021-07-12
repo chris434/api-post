@@ -9,7 +9,7 @@ const PORT = process.env.PORT
     //middleware
 app.use(bodyParser.json())
 app.use(cors({
-    origin: '*',
+    origin: 'http://localhost:3000',
     optionsSuccessStatus: 200,
     methods: 'GET,POST'
 }))
